@@ -5,7 +5,6 @@ export const GET_LOCATION = gql`
     location(id: $id) {
       id
       name
-      // Add more fields as needed
     }
   }
 `;
