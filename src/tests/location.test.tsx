@@ -1,10 +1,9 @@
 
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Location from '../src/Location'; // adjust import based on your actual file structure
+import Location from '../component/Location';
 import { MockedProvider } from '@apollo/client/testing';
-import { GET_LOCATION } from '../src/queries'; // Import the GraphQL query you're testing
-
+import { GET_LOCATION } from '../component/queries';
 const mocks = [
   {
     request: {
